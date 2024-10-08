@@ -1,0 +1,173 @@
+package com.example.Csv_extractor;
+
+import static org.testng.Assert.assertEquals;
+import static org.testng.Assert.assertFalse;
+import static org.testng.Assert.assertNotNull;
+import static org.testng.Assert.assertTrue;
+import static org.testng.Assert.fail;
+
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+import org.apache.commons.csv.CSVFormat;
+import org.apache.commons.csv.CSVPrinter;
+import org.testng.*;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
+
+public class AppTest {
+	
+	private String url = "jdbc:postgresql://10.1.27.41:5432/dummydb";
+    private String user = "dummyuser";
+    private String password = "password1";
+    private String csvFilePath = "accounts-3.csv";
+
+    @Test
+    public void testDatabaseConnection() {
+        try (Connection conn = DriverManager.getConnection(url, user, password)) {
+            Assert.assertNotNull(conn, "Connection to database should not be null.");
+        } catch (Exception e) {
+            Assert.fail("Failed to connect to the database: " + e.getMessage());
+        }
+    }
+
+    @Test(dependsOnMethods = "testDatabaseConnection")
+    public void testQueryExecutionAndCsvWriting() {
+        String query = "SELECT account_id AS \"Account Id\", " +
+                       "account_login AS \"Account Login\", " +
+                       "account_status AS \"Status\", " +
+                       "meta_type AS \"$metaType\" " +
+                       "FROM demo_acc;";
+
+        try (Connection conn = DriverManager.getConnection(url, user, password);
+             Statement stmt = conn.createStatement();
+             ResultSet rs = stmt.executeQuery(query);
+             FileWriter out = new FileWriter(csvFilePath);
+             CSVPrinter printer = new CSVPrinter(out, CSVFormat.DEFAULT.withHeader("Account Id", "Account Login", "Status", "$metaType"))) {
+
+            while (rs.next()) {
+                printer.printRecord(rs.getInt("Account Id"), 
+                                    rs.getString("Account Login"), 
+                                    rs.getString("Status"), 
+                                    rs.getString("$metaType"));
+            }
+            System.out.println("Data exported to " + csvFilePath + " successfully.");
+        } catch (SQLException | IOException e) {
+            Assert.fail("Query execution or CSV writing failed: " + e.getMessage());
+        }
+    }
+	
+	
+	
+	
+	
+	
+	
+	
+
+	///public static Connection testConnection;
+
+
+//	@BeforeClass
+//	public static void setUp() throws SQLException {
+//
+//		String h2Url = "jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1";
+//        testConnection = DriverManager.getConnection(h2Url, "sa", "");
+//		try (Statement stmt = testConnection.createStatement()) {
+//			String createTableSQL = "CREATE TABLE demo_acc (account_id VARCHAR(255) PRIMARY KEY, account_login VARCHAR(255), account_status VARCHAR(255), meta_type VARCHAR(255));";
+//
+//			stmt.execute(createTableSQL);
+//		}
+//		App.setConnection(testConnection);
+//
+//	}
+//
+//	@AfterClass
+//	public static void exit() throws SQLException {
+//		if (testConnection != null && !testConnection.isClosed()) {
+//			testConnection.close();
+//		}
+//	}
+    
+    
+    
+    @BeforeMethod
+    public void setUp() throws SQLException {
+        String url = null;
+		String password = null;
+		String user = null;
+		testConnection = DriverManager.getConnection(url, user, password);
+        App app = new App();
+        App.setConnection(testConnection); // Set the connection to the App class
+        createDemoTable(); // Create the table for testing
+    }
+
+
+	@Test
+	public void testConnection() throws SQLException {
+		assertNotNull(testConnection, "database connection should not be null");
+		assertTrue(testConnection.isClosed(), "database connection should be not be closed ");
+	}
+
+	
+
+	@Test
+	public void testCloseConnection() {
+		try {
+			if (!testConnection.isClosed()) {
+				testConnection.close();
+			}
+			assertTrue(testConnection.isClosed(), "Connection should be closed.");
+		} catch (SQLException e) {
+			fail("Exception occurred while closing the connection: " + e.getMessage());
+		}
+	}
+	
+	@Test
+    public void testWriteUsersToCsv() throws SQLException, IOException {
+        // Step 1: Add some test data to the in-memory database
+        String account_id = "12345";
+        String account_login = "testUser";
+        String account_status = "active";
+        String meta_type = "basic";
+
+        App.createUser(account_id, account_login, account_status, meta_type); // Assuming this method is available
+
+        // Step 2: Call the method under test
+        App.writeUsersToCsv(csvFileName);
+
+        // Step 3: Read the generated CSV file and verify its contents
+        StringBuilder csvContents = new StringBuilder();
+        try (BufferedReader reader = new BufferedReader(new FileReader(csvFileName))) {
+            String line;
+            while ((line = reader.readLine()) != null) {
+                csvContents.append(line).append("\n");
+            }
+        }
+
+        String expectedHeader = "Account Id,Account Login,Status,$metaType\n";
+        String expectedRow = "12345,testUser,active,basic\n";
+        String expectedContents = expectedHeader + expectedRow;
+
+        assertEquals(csvContents.toString().trim(), expectedContents.trim(), "CSV contents do not match expected output.");
+    }
+
+	
+	
+	
+	
+
+	
+
+
+}

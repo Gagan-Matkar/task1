@@ -1,0 +1,24 @@
+Account Id,Account Login,Status,$metaType,Groups.Group
+tim2,timmy,active,User Account,dev-group
+stark 1,stark,active,Service Account,dev-group
+stark 2,stark henrry,active,Service Account,dev-group
+user_1,Alice Johnson,active,User Account,
+user_2,Bob Smith,active,User Account,
+user_3,Charlie Brown,active,User Account,
+user_4,Diana Prince,inactive,User Account,
+user_5,Ethan Hunt,active,User Account,
+user_6,Fiona Green,active,User Account,
+user_7,George Miller,inactive,User Account,
+user_8,Hannah White,active,User Account,
+user_9,Ian Wright,active,User Account,
+user_10,Jessica Parker,inactive,User Account,
+user_11,Kevin Brown,active,User Account,
+user_12,Laura Lee,active,User Account,
+user_13,Michael Johnson,active,User Account,
+user_14,Nina Patel,inactive,User Account,
+user_15,Oscar Martinez,active,User Account,
+user_16,Paula Davis,active,User Account,
+user_17,Quincy Adams,active,User Account,
+user_18,Rachel Green,inactive,User Account,
+user_19,Sam Wilson,active,User Account,
+user_20,Tina Turner,active,User Account,

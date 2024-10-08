@@ -1,0 +1,125 @@
+package com.example.Csv_extractor;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+import java.util.Scanner;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+	private static final Logger logger = LoggerFactory.getLogger(App.class);
+	private static final String url = "jdbc:postgresql://localhost:5432/demo";
+	private static final String user = "postgres";
+	private static final String password = "Gagan@confluxsys";
+	private static Connection connection ;
+	
+	
+    public static void main( String[] args )
+    {
+        try {
+        	logger.info("application started");
+        	connection = DriverManager.getConnection(url,user,password);
+        	Scanner sc = new Scanner(System.in);
+        	
+        	while(true) {
+				System.out.println("choose an operation to do - ");
+				System.out.println("1. Create Employee");
+				System.out.println("2. read Employee");
+				System.out.println("3. update employee");
+				System.out.println("4. delete employee");
+				System.out.println("5. Exit");
+				
+				
+				int choice = sc.nextInt();
+				sc.nextLine();
+				
+				switch (choice) {
+				case 1:
+					System.out.println("Enter the employee name :");
+					String name = sc.nextLine();
+					createEmployee(name);
+					break;
+					
+					
+				case 2:
+					readEmployees();
+					break;
+					
+				case 3:
+					System.out.println("enter employee id to update: ");
+					int idToUpdate = sc.nextInt();
+					sc.nextLine();
+					System.out.println("enter the new employee name: ");
+					String newName = sc.nextLine();
+					updateEmployee(idToUpdate, newName);
+					break;
+					
+				case 4 :
+					System.out.println("enter employee Id to delete: ");
+					int idToDelete = sc.nextInt();
+					createEmployee(idToDelete);
+					break;
+					
+				case 5:
+					System.out.println("exiting the system");
+					return;
+					
+				default:
+					System.out.println("Invalid choice . please try again");
+				}
+        			
+        	
+        	}	
+			
+		} catch (SQLException e) {
+			// TODO: handle exception
+			logger.error("an error occoured : {}" , e.getMessage());
+		}finally {
+			try {
+				if(connection != null && !connection.isClosed()) {
+					connection.close();
+					logger.info("closing the database connection");
+				}
+			} catch (SQLException e2) {
+				// TODO: handle exception
+				logger.error("error closing connection : {}" , e2.getMessage());
+			}
+		}
+        
+        
+        
+        
+        
+    }
+}
+
+
+	private static void createEmployee(int idToDelete) {
+		// TODO Auto-generated method stub
+		
+	}
+
+
+	private static void updateEmployee(int idToUpdate, String newName) {
+		// TODO Auto-generated method stub
+		
+	}
+
+
+	private static void readEmployees() {
+		// TODO Auto-generated method stub
+		
+	}
+
+
+	private static void createEmployee(String name) {
+		// TODO Auto-generated method stub
+		
+	}

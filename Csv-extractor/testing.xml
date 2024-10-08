@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="CsvExtractorSuite">
+    <test name="AppTestSuite">
+        <classes>
+            <!-- Include the AppTest class for testing -->
+            <class name="com.example.Csv_extractor.AppTest"/>
+        </classes>
+    </test>
+</suite>

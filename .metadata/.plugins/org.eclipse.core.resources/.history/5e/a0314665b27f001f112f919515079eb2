@@ -1,0 +1,196 @@
+package com.example.Csv_extractor;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+import java.util.Scanner;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+
+
+import org.apache.commons.*;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+	private static final Logger logger = LoggerFactory.getLogger(App.class);
+	private static final String url = "jdbc:postgresql://10.1.27.41:5432/postgres";
+	private static final String user = "dummyuser";
+	private static final String password = "password1";
+	private static Connection connection ;
+	
+	
+    public static void main( String[] args )
+    {
+        try {
+        	logger.info("application started");
+        	connection = DriverManager.getConnection(url,user,password);
+        	Scanner sc = new Scanner(System.in);
+        	
+        	while(true) {
+				System.out.println("choose an operation to do - ");
+				System.out.println("1. Create user");
+				System.out.println("2. read user");
+				System.out.println("3. update user");
+				System.out.println("4. delete user");
+				System.out.println("5. Exit");
+				
+				
+				int choice = sc.nextInt();
+				sc.nextLine();
+				
+				switch (choice) {
+				case 1:
+					System.out.println("Enter the Account Id :");
+					String account_id = sc.nextLine();
+					System.out.println("Enter the Account Login :");
+					String account_login = sc.nextLine();
+					System.out.println("Enter the Account status :");
+					String account_status = sc.nextLine();
+					System.out.println("Enter the Account type :");
+					String meta_type = sc.nextLine();
+					createEmployee(account_id, account_login,account_status, meta_type);
+					break;
+					
+					
+				case 2:
+					readEmployees();
+					break;
+					
+				case 3:
+					System.out.println("enter data to update: ");
+					int idToUpdate = sc.nextInt();
+					sc.nextLine();
+					System.out.println("enter the new data: ");
+					String newName = sc.nextLine();
+					updateEmployee(idToUpdate, newName);
+					break;
+					
+				case 4 :
+					System.out.println("enter data to delete: ");
+					String idToDelete = sc.nextLine();
+					deleteEmployee(idToDelete);
+					break;
+					
+				case 5:
+					System.out.println("exiting the system");
+					return;
+					
+				default:
+					System.out.println("Invalid choice . please try again");
+				}
+        			
+        	
+        	}	
+			
+		} catch (SQLException e) {
+			// TODO: handle exception
+			logger.error("an error occoured : {}" , e.getMessage());
+		}finally {
+			try {
+				if(connection != null && !connection.isClosed()) {
+					connection.close();
+					logger.info("closing the database connection");
+				}
+			} catch (SQLException e2) {
+				// TODO: handle exception
+				logger.error("error closing connection : {}" , e2.getMessage());
+			}
+		}
+        
+        
+        
+        
+        
+    }
+
+
+
+	private static void deleteEmployee(String idToDelete) {
+		// TODO Auto-generated method stub
+		String deleteSQL = "DELETE FROM demo_acc WHERE account_id = " + idToDelete;
+		try(Statement stmt = connection.createStatement()) {
+			
+			int rowsAffected = stmt.executeUpdate(deleteSQL);
+			
+			if(rowsAffected > 0) {
+				logger.info("account ID {} deleted." , idToDelete);
+				
+			}else {
+				logger.warn("no account found with ID {}.", idToDelete);
+			}
+			
+			
+		} catch (SQLException e) {
+
+			// TODO: handle exception
+			logger.error("error deleting account: {}" , e.getMessage());
+			
+		}
+	}
+
+
+
+	private static void createEmployee(String account_id, String account_login , String account_status, String meta_type) {
+		// TODO Auto-generated method stub
+		String insertSQL = "INSERT INTO demo_acc (account_id , account_login, account_status, meta_type) VALUES ('"+account_id+"','"+account_login+"','"+account_status+"','"+meta_type+"')";
+		try(Statement stmt = connection.createStatement()){
+			stmt.executeUpdate(insertSQL);
+			logger.info(" {},{},{},{}account  created successfully" );
+			
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			//e.printStackTrace();
+			logger.error("Error creating account: {}", e.getMessage());
+		}
+		
+	}
+
+
+	private static void updateEmployee(int idToUpdate, String newName) {
+		// TODO Auto-generated method stub
+		
+	}
+
+
+	private static void readEmployees() {
+		// TODO Auto-generated method stub
+		String query = "SELECT * FROM demo_acc ORDER BY id";
+		logger.debug("executing query {}", query);
+		
+		try (Statement stmt = connection.createStatement()) {
+			
+			ResultSet rs = stmt.executeQuery(query);
+			logger.info("reading user");
+			while(rs.next()) {
+				String account_id = rs.getString("account_id");
+				String account_login = rs.getString("account_login");
+				String account_status = rs.getString("account_status");
+				String meta_type = rs.getString("meta_type");
+
+
+				
+				String name = rs.getString("name");
+				
+				//logger.info("Account ID: {}, Account Login: {}, Account Status: {}, Meta Type: {}", 
+	            //         account_id, account_login, account_status, meta_type);
+				System.out.println("Account ID: " + account_id + "Account Login: "+ account_login  + "Account Status: "  + account_status+"meta_type"+meta_type);
+			}
+			
+		} catch (SQLException e) {
+			// TODO: handle exception
+			logger.error("Error reading data: {}", e.getMessage());
+			
+		}
+		
+	}
+
+	}
+	
