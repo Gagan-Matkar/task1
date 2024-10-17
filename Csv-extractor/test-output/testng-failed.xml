@@ -5,8 +5,8 @@
     <classes>
       <class name="com.example.Csv_extractor.AppTest">
         <methods>
-          <include name="testQueryExecutionAndCsvWriting"/>
-          <include name="testDatabaseConnection"/>
+          <include name="setup"/>
+          <include name="testCreateUser"/>
         </methods>
       </class> <!-- com.example.Csv_extractor.AppTest -->
     </classes>

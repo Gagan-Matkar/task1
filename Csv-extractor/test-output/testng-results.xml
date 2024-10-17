@@ -1,16 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-10-08T12:36:44 IST" name="Default suite" finished-at="2024-10-08T12:36:44 IST" duration-ms="231">
+  <suite started-at="2024-10-17T11:13:54 IST" name="Default suite" finished-at="2024-10-17T11:13:55 IST" duration-ms="658">
     <groups>
     </groups>
-    <test started-at="2024-10-08T12:36:44 IST" name="Default test" finished-at="2024-10-08T12:36:44 IST" duration-ms="231">
+    <test started-at="2024-10-17T11:13:54 IST" name="Default test" finished-at="2024-10-17T11:13:55 IST" duration-ms="658">
       <class name="com.example.Csv_extractor.AppTest">
-        <test-method signature="testQueryExecutionAndCsvWriting()[pri:0, instance:com.example.Csv_extractor.AppTest@316bcf94]" started-at="2024-10-08T12:36:44 IST" name="testQueryExecutionAndCsvWriting" finished-at="2024-10-08T12:36:44 IST" duration-ms="177" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.example.Csv_extractor.AppTest@942a29c]" started-at="2024-10-17T11:13:54 IST" name="setup" finished-at="2024-10-17T11:13:54 IST" duration-ms="210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testCreateUser()[pri:0, instance:com.example.Csv_extractor.AppTest@942a29c]" started-at="2024-10-17T11:13:54 IST" name="testCreateUser" finished-at="2024-10-17T11:13:55 IST" duration-ms="271" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateUser -->
+        <test-method signature="testReadUser()[pri:0, instance:com.example.Csv_extractor.AppTest@942a29c]" started-at="2024-10-17T11:13:55 IST" name="testReadUser" finished-at="2024-10-17T11:13:55 IST" duration-ms="52" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testReadUser -->
+        <test-method signature="testQueryExecutionAndCsvWriting()[pri:0, instance:com.example.Csv_extractor.AppTest@942a29c]" started-at="2024-10-17T11:13:55 IST" name="testQueryExecutionAndCsvWriting" finished-at="2024-10-17T11:13:55 IST" duration-ms="15" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testQueryExecutionAndCsvWriting -->
+        <test-method signature="testDeleteUser()[pri:0, instance:com.example.Csv_extractor.AppTest@942a29c]" started-at="2024-10-17T11:13:55 IST" name="testDeleteUser" finished-at="2024-10-17T11:13:55 IST" depends-on-methods="com.example.Csv_extractor.AppTest.testCreateUser" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteUser -->
+        <test-method is-config="true" signature="exit()[pri:0, instance:com.example.Csv_extractor.AppTest@942a29c]" started-at="2024-10-17T11:13:55 IST" name="exit" finished-at="2024-10-17T11:13:55 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exit -->
       </class> <!-- com.example.Csv_extractor.AppTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

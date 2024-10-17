@@ -1901,3 +1901,604 @@
 2024-10-08 12:36:45,108 [main] INFO   org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@7a362b6b: 25 ms
 2024-10-08 12:36:45,117 [main] INFO   org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@a4add54: 9 ms
 2024-10-08 12:36:45,123 [main] INFO   org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@6ccdb29f: 5 ms
+2024-10-08 17:03:51,478 [main] INFO   com.example.Csv_extractor.App - closing the database connection
+2024-10-08 17:03:51,583 [main] INFO   com.example.Csv_extractor.App - closing the database connection
+2024-10-08 17:03:51,716 [main] INFO   com.example.Csv_extractor.App - closing the database connection
+2024-10-08 17:03:51,817 [main] INFO   com.example.Csv_extractor.App - closing the database connection
+2024-10-14 10:37:31,899 [main] DEBUG  org.testng.TestNG - suiteXmlPath: "/var/folders/5j/rkgngvws1fbgj1s187y4gt6h0000gn/T/testng-eclipse-422680674/testng-customsuite.xml"
+2024-10-14 10:37:32,201 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-14 10:37:32,204 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2024-10-14 10:37:32,206 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-14 10:37:32,207 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-14 10:37:32,207 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-14 10:37:32,207 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-14 10:37:32,208 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-14 10:37:32,208 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-14 10:37:32,216 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 6 ms.
+2024-10-14 10:37:32,224 [main] TRACE  org.testng.internal.Graph - [Graph] ADDING NODE AppTest.setup()[pri:0, instance:null] -1664640127
+2024-10-14 10:37:32,225 [main] TRACE  org.testng.internal.Graph - [Graph] ================ SORTING
+2024-10-14 10:37:32,241 [main] TRACE  org.testng.internal.Graph - [Graph] =============== DONE SORTING
+2024-10-14 10:37:32,241 [main] TRACE  org.testng.internal.Graph - [Graph] ====== SORTED NODES
+2024-10-14 10:37:32,241 [main] TRACE  org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+2024-10-14 10:37:32,242 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 25 ms.
+2024-10-14 10:37:32,246 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-14 10:37:32,246 [main] TRACE  org.testng.internal.Graph - [Graph] ADDING NODE AppTest.exit()[pri:0, instance:null] -1704191968
+2024-10-14 10:37:32,246 [main] TRACE  org.testng.internal.Graph - [Graph] ================ SORTING
+2024-10-14 10:37:32,247 [main] TRACE  org.testng.internal.Graph - [Graph] =============== DONE SORTING
+2024-10-14 10:37:32,247 [main] TRACE  org.testng.internal.Graph - [Graph] ====== SORTED NODES
+2024-10-14 10:37:32,247 [main] TRACE  org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+2024-10-14 10:37:32,247 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2024-10-14 10:37:32,249 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-14 10:37:32,249 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-14 10:37:32,252 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-14 10:37:32,252 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-14 10:37:32,255 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-14 10:37:32,255 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-14 10:37:32,255 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-14 10:37:32,255 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-14 10:37:32,256 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-14 10:37:32,257 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-14 10:37:32,257 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-14 10:37:32,257 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-14 10:37:32,261 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 3 ms.
+2024-10-14 10:37:32,261 [main] TRACE  org.testng.internal.Graph - [Graph] ADDING NODE AppTest.testCreateUser()[pri:0, instance:com.example.Csv_extractor.AppTest@534a5a98] 1068452627
+2024-10-14 10:37:32,261 [main] TRACE  org.testng.internal.Graph - [Graph] ================ SORTING
+2024-10-14 10:37:32,261 [main] TRACE  org.testng.internal.Graph - [Graph] =============== DONE SORTING
+2024-10-14 10:37:32,261 [main] TRACE  org.testng.internal.Graph - [Graph] ====== SORTED NODES
+2024-10-14 10:37:32,261 [main] TRACE  org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+2024-10-14 10:37:32,261 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-14 10:37:32,262 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-14 10:37:32,263 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-14 10:37:32,263 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-14 10:37:32,263 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-14 10:37:32,273 [main] INFO   org.testng.internal.Utils - [TestNG] Running:
+  /private/var/folders/5j/rkgngvws1fbgj1s187y4gt6h0000gn/T/testng-eclipse-422680674/testng-customsuite.xml
+
+2024-10-14 10:37:32,304 [main] INFO   org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 9 ms.
+2024-10-14 10:37:32,635 [main] INFO   org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@6c2ed0cd: 0 ms
+2024-10-14 10:37:32,684 [main] INFO   org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@ae3540e: 48 ms
+2024-10-14 10:37:32,803 [main] INFO   org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@6cce16f4: 117 ms
+2024-10-14 10:37:32,803 [main] TRACE  org.testng.internal.Graph - [Graph] ADDING NODE AppTest.testCreateUser()[pri:0, instance:com.example.Csv_extractor.AppTest@534a5a98] 1068452627
+2024-10-14 10:37:32,804 [main] TRACE  org.testng.internal.Graph - [Graph] ================ SORTING
+2024-10-14 10:37:32,804 [main] TRACE  org.testng.internal.Graph - [Graph] =============== DONE SORTING
+2024-10-14 10:37:32,804 [main] TRACE  org.testng.internal.Graph - [Graph] ====== SORTED NODES
+2024-10-14 10:37:32,804 [main] TRACE  org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+2024-10-14 10:37:32,822 [main] INFO   org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@3abada5a: 19 ms
+2024-10-14 10:37:32,841 [main] INFO   org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@3899782c: 19 ms
+2024-10-14 10:37:32,884 [main] INFO   org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@6ce86ce1: 36 ms
+2024-10-14 10:37:32,895 [main] INFO   org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@764faa6: 10 ms
+2024-10-14 10:43:18,648 [main] DEBUG  org.testng.TestNG - suiteXmlPath: "/var/folders/5j/rkgngvws1fbgj1s187y4gt6h0000gn/T/testng-eclipse--380940998/testng-customsuite.xml"
+2024-10-14 10:43:18,923 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-14 10:43:18,927 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 2 ms.
+2024-10-14 10:43:18,931 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-14 10:43:18,931 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-14 10:43:18,932 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-14 10:43:18,932 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-14 10:43:18,933 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-14 10:43:18,933 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-14 10:43:18,942 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 6 ms.
+2024-10-14 10:43:18,950 [main] TRACE  org.testng.internal.Graph - [Graph] ADDING NODE AppTest.setup()[pri:0, instance:null] -1664640127
+2024-10-14 10:43:18,951 [main] TRACE  org.testng.internal.Graph - [Graph] ================ SORTING
+2024-10-14 10:43:18,953 [main] TRACE  org.testng.internal.Graph - [Graph] =============== DONE SORTING
+2024-10-14 10:43:18,953 [main] TRACE  org.testng.internal.Graph - [Graph] ====== SORTED NODES
+2024-10-14 10:43:18,953 [main] TRACE  org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+2024-10-14 10:43:18,954 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 11 ms.
+2024-10-14 10:43:18,955 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-14 10:43:18,955 [main] TRACE  org.testng.internal.Graph - [Graph] ADDING NODE AppTest.exit()[pri:0, instance:null] -1704191968
+2024-10-14 10:43:18,955 [main] TRACE  org.testng.internal.Graph - [Graph] ================ SORTING
+2024-10-14 10:43:18,955 [main] TRACE  org.testng.internal.Graph - [Graph] =============== DONE SORTING
+2024-10-14 10:43:18,955 [main] TRACE  org.testng.internal.Graph - [Graph] ====== SORTED NODES
+2024-10-14 10:43:18,955 [main] TRACE  org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+2024-10-14 10:43:18,955 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-14 10:43:18,956 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-14 10:43:18,956 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-14 10:43:18,957 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-14 10:43:18,957 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-14 10:43:18,960 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-14 10:43:18,960 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-14 10:43:18,960 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-14 10:43:18,961 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-14 10:43:18,963 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-14 10:43:18,963 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-14 10:43:18,963 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-14 10:43:18,963 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-14 10:43:18,967 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 3 ms.
+2024-10-14 10:43:18,967 [main] TRACE  org.testng.internal.Graph - [Graph] ADDING NODE AppTest.testCreateUser()[pri:0, instance:com.example.Csv_extractor.AppTest@5a45133e] 1185547193
+2024-10-14 10:43:18,967 [main] TRACE  org.testng.internal.Graph - [Graph] ================ SORTING
+2024-10-14 10:43:18,968 [main] TRACE  org.testng.internal.Graph - [Graph] =============== DONE SORTING
+2024-10-14 10:43:18,968 [main] TRACE  org.testng.internal.Graph - [Graph] ====== SORTED NODES
+2024-10-14 10:43:18,968 [main] TRACE  org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+2024-10-14 10:43:18,968 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-14 10:43:18,969 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-14 10:43:18,969 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-14 10:43:18,970 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-14 10:43:18,970 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-14 10:43:18,979 [main] INFO   org.testng.internal.Utils - [TestNG] Running:
+  /private/var/folders/5j/rkgngvws1fbgj1s187y4gt6h0000gn/T/testng-eclipse--380940998/testng-customsuite.xml
+
+2024-10-14 10:43:19,009 [main] INFO   org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 4 ms.
+2024-10-14 10:43:19,286 [main] INFO   org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@4ddbbdf8: 0 ms
+2024-10-14 10:43:19,319 [main] INFO   org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@54eb2b70: 33 ms
+2024-10-14 10:43:19,418 [main] INFO   org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@5c2375a9: 99 ms
+2024-10-14 10:43:19,419 [main] TRACE  org.testng.internal.Graph - [Graph] ADDING NODE AppTest.testCreateUser()[pri:0, instance:com.example.Csv_extractor.AppTest@5a45133e] 1185547193
+2024-10-14 10:43:19,420 [main] TRACE  org.testng.internal.Graph - [Graph] ================ SORTING
+2024-10-14 10:43:19,420 [main] TRACE  org.testng.internal.Graph - [Graph] =============== DONE SORTING
+2024-10-14 10:43:19,421 [main] TRACE  org.testng.internal.Graph - [Graph] ====== SORTED NODES
+2024-10-14 10:43:19,421 [main] TRACE  org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+2024-10-14 10:43:19,438 [main] INFO   org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@21337f7b: 20 ms
+2024-10-14 10:43:19,452 [main] INFO   org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@2fd953a6: 14 ms
+2024-10-14 10:43:19,463 [main] INFO   org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@3b96c42e: 9 ms
+2024-10-14 10:43:19,473 [main] INFO   org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@9ebe38b: 10 ms
+2024-10-14 10:43:50,636 [main] DEBUG  org.testng.TestNG - suiteXmlPath: "/var/folders/5j/rkgngvws1fbgj1s187y4gt6h0000gn/T/testng-eclipse--1196361835/testng-customsuite.xml"
+2024-10-14 10:43:50,972 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-14 10:43:50,977 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 2 ms.
+2024-10-14 10:43:50,980 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-14 10:43:50,981 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-14 10:43:50,981 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-14 10:43:50,982 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-14 10:43:50,982 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-14 10:43:50,982 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-14 10:43:50,992 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 7 ms.
+2024-10-14 10:43:50,999 [main] TRACE  org.testng.internal.Graph - [Graph] ADDING NODE AppTest.setup()[pri:0, instance:null] -1664640127
+2024-10-14 10:43:50,999 [main] TRACE  org.testng.internal.Graph - [Graph] ================ SORTING
+2024-10-14 10:43:51,004 [main] TRACE  org.testng.internal.Graph - [Graph] =============== DONE SORTING
+2024-10-14 10:43:51,005 [main] TRACE  org.testng.internal.Graph - [Graph] ====== SORTED NODES
+2024-10-14 10:43:51,005 [main] TRACE  org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+2024-10-14 10:43:51,005 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 13 ms.
+2024-10-14 10:43:51,006 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-14 10:43:51,007 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-14 10:43:51,007 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-14 10:43:51,008 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-14 10:43:51,008 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-14 10:43:51,009 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-14 10:43:51,014 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-14 10:43:51,014 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-14 10:43:51,014 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-14 10:43:51,015 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-14 10:43:51,017 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-14 10:43:51,017 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-14 10:43:51,017 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-14 10:43:51,017 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-14 10:43:51,021 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 3 ms.
+2024-10-14 10:43:51,021 [main] TRACE  org.testng.internal.Graph - [Graph] ADDING NODE AppTest.testCreateUser()[pri:0, instance:com.example.Csv_extractor.AppTest@1ed6388a] 188426501
+2024-10-14 10:43:51,021 [main] TRACE  org.testng.internal.Graph - [Graph] ================ SORTING
+2024-10-14 10:43:51,022 [main] TRACE  org.testng.internal.Graph - [Graph] =============== DONE SORTING
+2024-10-14 10:43:51,022 [main] TRACE  org.testng.internal.Graph - [Graph] ====== SORTED NODES
+2024-10-14 10:43:51,022 [main] TRACE  org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+2024-10-14 10:43:51,022 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-14 10:43:51,023 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-14 10:43:51,023 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-14 10:43:51,023 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-14 10:43:51,023 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-14 10:43:51,034 [main] INFO   org.testng.internal.Utils - [TestNG] Running:
+  /private/var/folders/5j/rkgngvws1fbgj1s187y4gt6h0000gn/T/testng-eclipse--1196361835/testng-customsuite.xml
+
+2024-10-14 10:43:51,057 [main] INFO   org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 4 ms.
+2024-10-14 10:43:51,295 [main] INFO   org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@20c0a64d: 0 ms
+2024-10-14 10:43:51,337 [main] INFO   org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@6f7923a5: 40 ms
+2024-10-14 10:43:51,430 [main] INFO   org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@7c8c9a05: 92 ms
+2024-10-14 10:43:51,431 [main] TRACE  org.testng.internal.Graph - [Graph] ADDING NODE AppTest.testCreateUser()[pri:0, instance:com.example.Csv_extractor.AppTest@1ed6388a] 188426501
+2024-10-14 10:43:51,431 [main] TRACE  org.testng.internal.Graph - [Graph] ================ SORTING
+2024-10-14 10:43:51,431 [main] TRACE  org.testng.internal.Graph - [Graph] =============== DONE SORTING
+2024-10-14 10:43:51,432 [main] TRACE  org.testng.internal.Graph - [Graph] ====== SORTED NODES
+2024-10-14 10:43:51,432 [main] TRACE  org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+2024-10-14 10:43:51,453 [main] INFO   org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@5505ae1a: 23 ms
+2024-10-14 10:43:51,467 [main] INFO   org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@363a52f: 13 ms
+2024-10-14 10:43:51,475 [main] INFO   org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@61544ae6: 8 ms
+2024-10-14 10:43:51,485 [main] INFO   org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@3899782c: 10 ms
+2024-10-14 10:45:40,885 [main] DEBUG  org.testng.TestNG - suiteXmlPath: "/var/folders/5j/rkgngvws1fbgj1s187y4gt6h0000gn/T/testng-eclipse--634122743/testng-customsuite.xml"
+2024-10-14 10:45:41,318 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+2024-10-14 10:45:41,327 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 2 ms.
+2024-10-14 10:45:41,330 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-14 10:45:41,330 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-14 10:45:41,330 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-14 10:45:41,330 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-14 10:45:41,331 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-14 10:45:41,331 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-14 10:45:41,339 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 7 ms.
+2024-10-14 10:45:41,364 [main] TRACE  org.testng.internal.Graph - [Graph] ADDING NODE AppTest.setup()[pri:0, instance:null] -1664640127
+2024-10-14 10:45:41,365 [main] TRACE  org.testng.internal.Graph - [Graph] ================ SORTING
+2024-10-14 10:45:41,368 [main] TRACE  org.testng.internal.Graph - [Graph] =============== DONE SORTING
+2024-10-14 10:45:41,368 [main] TRACE  org.testng.internal.Graph - [Graph] ====== SORTED NODES
+2024-10-14 10:45:41,369 [main] TRACE  org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+2024-10-14 10:45:41,369 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 29 ms.
+2024-10-14 10:45:41,370 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-14 10:45:41,370 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-14 10:45:41,371 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-14 10:45:41,371 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-14 10:45:41,373 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-14 10:45:41,374 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-14 10:45:41,378 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-14 10:45:41,379 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-14 10:45:41,380 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-14 10:45:41,380 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-14 10:45:41,382 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-14 10:45:41,383 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-14 10:45:41,383 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-14 10:45:41,383 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-14 10:45:41,389 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 5 ms.
+2024-10-14 10:45:41,390 [main] TRACE  org.testng.internal.Graph - [Graph] ADDING NODE AppTest.testCreateUser()[pri:0, instance:com.example.Csv_extractor.AppTest@1ed6388a] 188426501
+2024-10-14 10:45:41,390 [main] TRACE  org.testng.internal.Graph - [Graph] ================ SORTING
+2024-10-14 10:45:41,390 [main] TRACE  org.testng.internal.Graph - [Graph] =============== DONE SORTING
+2024-10-14 10:45:41,390 [main] TRACE  org.testng.internal.Graph - [Graph] ====== SORTED NODES
+2024-10-14 10:45:41,390 [main] TRACE  org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+2024-10-14 10:45:41,391 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-14 10:45:41,392 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-14 10:45:41,392 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-14 10:45:41,392 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-14 10:45:41,393 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-14 10:45:41,403 [main] INFO   org.testng.internal.Utils - [TestNG] Running:
+  /private/var/folders/5j/rkgngvws1fbgj1s187y4gt6h0000gn/T/testng-eclipse--634122743/testng-customsuite.xml
+
+2024-10-14 10:45:41,432 [main] INFO   org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 4 ms.
+2024-10-14 10:45:41,807 [main] INFO   org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@20c0a64d: 0 ms
+2024-10-14 10:45:41,847 [main] INFO   org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@6f7923a5: 39 ms
+2024-10-14 10:45:41,932 [main] INFO   org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@7c8c9a05: 85 ms
+2024-10-14 10:45:41,934 [main] TRACE  org.testng.internal.Graph - [Graph] ADDING NODE AppTest.testCreateUser()[pri:0, instance:com.example.Csv_extractor.AppTest@1ed6388a] 188426501
+2024-10-14 10:45:41,935 [main] TRACE  org.testng.internal.Graph - [Graph] ================ SORTING
+2024-10-14 10:45:41,935 [main] TRACE  org.testng.internal.Graph - [Graph] =============== DONE SORTING
+2024-10-14 10:45:41,935 [main] TRACE  org.testng.internal.Graph - [Graph] ====== SORTED NODES
+2024-10-14 10:45:41,935 [main] TRACE  org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+2024-10-14 10:45:41,949 [main] INFO   org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@5505ae1a: 17 ms
+2024-10-14 10:45:41,961 [main] INFO   org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@363a52f: 12 ms
+2024-10-14 10:45:41,972 [main] INFO   org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@61544ae6: 11 ms
+2024-10-14 10:45:41,979 [main] INFO   org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@3899782c: 7 ms
+2024-10-14 10:52:41,443 [main] DEBUG  org.testng.TestNG - suiteXmlPath: "/var/folders/5j/rkgngvws1fbgj1s187y4gt6h0000gn/T/testng-eclipse--760090519/testng-customsuite.xml"
+2024-10-14 10:52:41,707 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+2024-10-14 10:52:41,715 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 2 ms.
+2024-10-14 10:52:41,718 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-14 10:52:41,718 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-14 10:52:41,719 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-14 10:52:41,719 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-14 10:52:41,720 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-14 10:52:41,720 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-14 10:52:41,728 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 6 ms.
+2024-10-14 10:52:41,735 [main] TRACE  org.testng.internal.Graph - [Graph] ADDING NODE AppTest.setup()[pri:0, instance:null] -1664640127
+2024-10-14 10:52:41,736 [main] TRACE  org.testng.internal.Graph - [Graph] ================ SORTING
+2024-10-14 10:52:41,740 [main] TRACE  org.testng.internal.Graph - [Graph] =============== DONE SORTING
+2024-10-14 10:52:41,740 [main] TRACE  org.testng.internal.Graph - [Graph] ====== SORTED NODES
+2024-10-14 10:52:41,740 [main] TRACE  org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+2024-10-14 10:52:41,740 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 11 ms.
+2024-10-14 10:52:41,741 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-14 10:52:41,742 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-14 10:52:41,743 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-14 10:52:41,743 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-14 10:52:41,743 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-14 10:52:41,744 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-14 10:52:41,748 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-14 10:52:41,748 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-14 10:52:41,749 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-14 10:52:41,749 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-14 10:52:41,750 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-14 10:52:41,750 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-14 10:52:41,751 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-14 10:52:41,751 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-14 10:52:41,754 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 2 ms.
+2024-10-14 10:52:41,754 [main] TRACE  org.testng.internal.Graph - [Graph] ADDING NODE AppTest.testCreateUser()[pri:0, instance:com.example.Csv_extractor.AppTest@1ed6388a] 188426501
+2024-10-14 10:52:41,754 [main] TRACE  org.testng.internal.Graph - [Graph] ================ SORTING
+2024-10-14 10:52:41,754 [main] TRACE  org.testng.internal.Graph - [Graph] =============== DONE SORTING
+2024-10-14 10:52:41,754 [main] TRACE  org.testng.internal.Graph - [Graph] ====== SORTED NODES
+2024-10-14 10:52:41,754 [main] TRACE  org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+2024-10-14 10:52:41,754 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-14 10:52:41,755 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-14 10:52:41,756 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-14 10:52:41,756 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-14 10:52:41,756 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-14 10:52:41,765 [main] INFO   org.testng.internal.Utils - [TestNG] Running:
+  /private/var/folders/5j/rkgngvws1fbgj1s187y4gt6h0000gn/T/testng-eclipse--760090519/testng-customsuite.xml
+
+2024-10-14 10:52:41,788 [main] INFO   org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 3 ms.
+2024-10-14 10:52:42,163 [main] INFO   com.example.Csv_extractor.App -  {},{},{},{}account  created successfully
+2024-10-14 10:52:42,272 [main] INFO   org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@42530531: 0 ms
+2024-10-14 10:52:42,305 [main] INFO   org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@3697186: 33 ms
+2024-10-14 10:52:42,397 [main] INFO   org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@3abada5a: 92 ms
+2024-10-14 10:52:42,399 [main] INFO   org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@66c61024: 1 ms
+2024-10-14 10:52:42,426 [main] INFO   org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@5ba88be8: 27 ms
+2024-10-14 10:52:42,433 [main] INFO   org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@6581dc0a: 7 ms
+2024-10-14 10:52:42,440 [main] INFO   org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@32c4e8b2: 5 ms
+2024-10-14 10:53:49,675 [main] DEBUG  org.testng.TestNG - suiteXmlPath: "/var/folders/5j/rkgngvws1fbgj1s187y4gt6h0000gn/T/testng-eclipse--784806394/testng-customsuite.xml"
+2024-10-14 10:53:49,957 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-14 10:53:49,961 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 2 ms.
+2024-10-14 10:53:49,965 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-14 10:53:49,965 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-14 10:53:49,966 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-14 10:53:49,966 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-14 10:53:49,967 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-14 10:53:49,967 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-14 10:53:49,976 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 7 ms.
+2024-10-14 10:53:49,982 [main] TRACE  org.testng.internal.Graph - [Graph] ADDING NODE AppTest.setup()[pri:0, instance:null] -1664640127
+2024-10-14 10:53:49,982 [main] TRACE  org.testng.internal.Graph - [Graph] ================ SORTING
+2024-10-14 10:53:49,985 [main] TRACE  org.testng.internal.Graph - [Graph] =============== DONE SORTING
+2024-10-14 10:53:49,986 [main] TRACE  org.testng.internal.Graph - [Graph] ====== SORTED NODES
+2024-10-14 10:53:49,986 [main] TRACE  org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+2024-10-14 10:53:49,986 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 9 ms.
+2024-10-14 10:53:49,988 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-14 10:53:49,988 [main] TRACE  org.testng.internal.Graph - [Graph] ADDING NODE AppTest.exit()[pri:0, instance:null] -1704191968
+2024-10-14 10:53:49,988 [main] TRACE  org.testng.internal.Graph - [Graph] ================ SORTING
+2024-10-14 10:53:49,989 [main] TRACE  org.testng.internal.Graph - [Graph] =============== DONE SORTING
+2024-10-14 10:53:49,989 [main] TRACE  org.testng.internal.Graph - [Graph] ====== SORTED NODES
+2024-10-14 10:53:49,989 [main] TRACE  org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+2024-10-14 10:53:49,989 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2024-10-14 10:53:49,990 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-14 10:53:49,990 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-14 10:53:49,991 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-14 10:53:49,991 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-14 10:53:49,994 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-14 10:53:49,994 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-14 10:53:49,994 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-14 10:53:49,994 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-14 10:53:49,995 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-14 10:53:49,996 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-14 10:53:49,996 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-14 10:53:49,996 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-14 10:53:49,997 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-14 10:53:49,998 [main] TRACE  org.testng.internal.Graph - [Graph] ADDING NODE AppTest.testQueryExecutionAndCsvWriting()[pri:0, instance:com.example.Csv_extractor.AppTest@3f6f6701] 977491534
+2024-10-14 10:53:49,998 [main] TRACE  org.testng.internal.Graph - [Graph] ADDING NODE AppTest.testDeleteUser()[pri:0, instance:com.example.Csv_extractor.AppTest@3f6f6701] 908347979
+2024-10-14 10:53:50,001 [main] TRACE  org.testng.internal.Graph - [Graph]   ADDING PREDECESSOR FOR AppTest.testDeleteUser()[pri:0, instance:com.example.Csv_extractor.AppTest@3f6f6701] ==> AppTest.testCreateUser()[pri:0, instance:com.example.Csv_extractor.AppTest@3f6f6701]
+2024-10-14 10:53:50,001 [main] TRACE  org.testng.internal.Graph - [Graph]   REMOVED AppTest.testCreateUser()[pri:0, instance:com.example.Csv_extractor.AppTest@3f6f6701] FROM INDEPENDENT OBJECTS
+2024-10-14 10:53:50,002 [main] TRACE  org.testng.internal.Graph - [Graph] ADDING NODE AppTest.testCreateUser()[pri:0, instance:com.example.Csv_extractor.AppTest@3f6f6701] 735336316
+2024-10-14 10:53:50,002 [main] TRACE  org.testng.internal.Graph - [Graph] ================ SORTING
+2024-10-14 10:53:50,002 [ForkJoinPool.commonPool-worker-1] TRACE  org.testng.internal.Graph - [Graph]   ADDING PREDECESSOR FOR AppTest.testDeleteUser()[pri:0, instance:com.example.Csv_extractor.AppTest@3f6f6701] ==> AppTest.testCreateUser()[pri:0, instance:com.example.Csv_extractor.AppTest@3f6f6701]
+2024-10-14 10:53:50,003 [main] TRACE  org.testng.internal.Graph - [Graph]   REMOVED PRED AppTest.testCreateUser()[pri:0, instance:com.example.Csv_extractor.AppTest@3f6f6701] FROM NODE AppTest.testDeleteUser()[pri:0, instance:com.example.Csv_extractor.AppTest@3f6f6701]
+2024-10-14 10:53:50,004 [main] TRACE  org.testng.internal.Graph - [Graph] =============== DONE SORTING
+2024-10-14 10:53:50,004 [main] TRACE  org.testng.internal.Graph - [Graph] ====== SORTED NODES
+2024-10-14 10:53:50,004 [main] TRACE  org.testng.internal.Graph - [Graph]               AppTest.testCreateUser()[pri:0, instance:com.example.Csv_extractor.AppTest@3f6f6701]
+2024-10-14 10:53:50,004 [main] TRACE  org.testng.internal.Graph - [Graph]               AppTest.testDeleteUser()[pri:0, instance:com.example.Csv_extractor.AppTest@3f6f6701]
+2024-10-14 10:53:50,004 [main] TRACE  org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+2024-10-14 10:53:50,004 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 6 ms.
+2024-10-14 10:53:50,005 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-14 10:53:50,005 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-14 10:53:50,005 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-14 10:53:50,005 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-14 10:53:50,015 [main] INFO   org.testng.internal.Utils - [TestNG] Running:
+  /private/var/folders/5j/rkgngvws1fbgj1s187y4gt6h0000gn/T/testng-eclipse--784806394/testng-customsuite.xml
+
+2024-10-14 10:53:50,048 [main] INFO   org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 11 ms.
+2024-10-14 10:53:50,266 [main] ERROR  com.example.Csv_extractor.App - Error creating account: ERROR: duplicate key value violates unique constraint "pk_account_id"
+  Detail: Key (account_id)=(test123) already exists.
+2024-10-14 10:53:50,317 [main] INFO   com.example.Csv_extractor.App - account ID test123 deleted.
+2024-10-14 10:53:50,378 [main] INFO   org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@58ce9668: 0 ms
+2024-10-14 10:53:50,422 [main] INFO   org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@132e0cc: 44 ms
+2024-10-14 10:53:50,508 [main] INFO   org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@76a2ddf3: 86 ms
+2024-10-14 10:53:50,509 [main] INFO   org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@524f3b3a: 1 ms
+2024-10-14 10:53:50,519 [main] INFO   org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@3d3e5463: 10 ms
+2024-10-14 10:53:50,527 [main] INFO   org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@53f6fd09: 7 ms
+2024-10-14 10:53:50,533 [main] INFO   org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@3ad2e17: 6 ms
+2024-10-14 11:34:18,133 [main] DEBUG  org.testng.TestNG - suiteXmlPath: "/var/folders/5j/rkgngvws1fbgj1s187y4gt6h0000gn/T/testng-eclipse--329061790/testng-customsuite.xml"
+2024-10-14 11:34:18,412 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+2024-10-14 11:34:18,419 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 2 ms.
+2024-10-14 11:34:18,422 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-14 11:34:18,422 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-14 11:34:18,423 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-14 11:34:18,423 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-14 11:34:18,424 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-14 11:34:18,424 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-14 11:34:18,435 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 8 ms.
+2024-10-14 11:34:18,442 [main] TRACE  org.testng.internal.Graph - [Graph] ADDING NODE AppTest.setup()[pri:0, instance:null] -1664640127
+2024-10-14 11:34:18,443 [main] TRACE  org.testng.internal.Graph - [Graph] ================ SORTING
+2024-10-14 11:34:18,447 [main] TRACE  org.testng.internal.Graph - [Graph] =============== DONE SORTING
+2024-10-14 11:34:18,447 [main] TRACE  org.testng.internal.Graph - [Graph] ====== SORTED NODES
+2024-10-14 11:34:18,447 [main] TRACE  org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+2024-10-14 11:34:18,447 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 12 ms.
+2024-10-14 11:34:18,449 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-14 11:34:18,450 [main] TRACE  org.testng.internal.Graph - [Graph] ADDING NODE AppTest.exit()[pri:0, instance:null] -1704191968
+2024-10-14 11:34:18,450 [main] TRACE  org.testng.internal.Graph - [Graph] ================ SORTING
+2024-10-14 11:34:18,450 [main] TRACE  org.testng.internal.Graph - [Graph] =============== DONE SORTING
+2024-10-14 11:34:18,450 [main] TRACE  org.testng.internal.Graph - [Graph] ====== SORTED NODES
+2024-10-14 11:34:18,450 [main] TRACE  org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+2024-10-14 11:34:18,450 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-14 11:34:18,451 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-14 11:34:18,452 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-14 11:34:18,453 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-14 11:34:18,453 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-14 11:34:18,456 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-14 11:34:18,456 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-14 11:34:18,456 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-14 11:34:18,456 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-14 11:34:18,458 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-14 11:34:18,458 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-14 11:34:18,458 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-14 11:34:18,458 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-14 11:34:18,460 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-14 11:34:18,461 [main] TRACE  org.testng.internal.Graph - [Graph] ADDING NODE AppTest.testQueryExecutionAndCsvWriting()[pri:0, instance:com.example.Csv_extractor.AppTest@3527942a] 805012343
+2024-10-14 11:34:18,461 [main] TRACE  org.testng.internal.Graph - [Graph] ADDING NODE AppTest.testDeleteUser()[pri:0, instance:com.example.Csv_extractor.AppTest@3527942a] 735868788
+2024-10-14 11:34:18,465 [main] TRACE  org.testng.internal.Graph - [Graph]   ADDING PREDECESSOR FOR AppTest.testDeleteUser()[pri:0, instance:com.example.Csv_extractor.AppTest@3527942a] ==> AppTest.testCreateUser()[pri:0, instance:com.example.Csv_extractor.AppTest@3527942a]
+2024-10-14 11:34:18,466 [main] TRACE  org.testng.internal.Graph - [Graph]   REMOVED AppTest.testCreateUser()[pri:0, instance:com.example.Csv_extractor.AppTest@3527942a] FROM INDEPENDENT OBJECTS
+2024-10-14 11:34:18,466 [main] TRACE  org.testng.internal.Graph - [Graph] ADDING NODE AppTest.testCreateUser()[pri:0, instance:com.example.Csv_extractor.AppTest@3527942a] 562857125
+2024-10-14 11:34:18,466 [main] TRACE  org.testng.internal.Graph - [Graph] ADDING NODE AppTest.testReadUser()[pri:0, instance:com.example.Csv_extractor.AppTest@3527942a] 1546963263
+2024-10-14 11:34:18,466 [main] TRACE  org.testng.internal.Graph - [Graph] ================ SORTING
+2024-10-14 11:34:18,467 [ForkJoinPool.commonPool-worker-1] TRACE  org.testng.internal.Graph - [Graph]   ADDING PREDECESSOR FOR AppTest.testDeleteUser()[pri:0, instance:com.example.Csv_extractor.AppTest@3527942a] ==> AppTest.testCreateUser()[pri:0, instance:com.example.Csv_extractor.AppTest@3527942a]
+2024-10-14 11:34:18,468 [main] TRACE  org.testng.internal.Graph - [Graph]   REMOVED PRED AppTest.testCreateUser()[pri:0, instance:com.example.Csv_extractor.AppTest@3527942a] FROM NODE AppTest.testDeleteUser()[pri:0, instance:com.example.Csv_extractor.AppTest@3527942a]
+2024-10-14 11:34:18,468 [main] TRACE  org.testng.internal.Graph - [Graph] =============== DONE SORTING
+2024-10-14 11:34:18,468 [main] TRACE  org.testng.internal.Graph - [Graph] ====== SORTED NODES
+2024-10-14 11:34:18,469 [main] TRACE  org.testng.internal.Graph - [Graph]               AppTest.testCreateUser()[pri:0, instance:com.example.Csv_extractor.AppTest@3527942a]
+2024-10-14 11:34:18,469 [main] TRACE  org.testng.internal.Graph - [Graph]               AppTest.testDeleteUser()[pri:0, instance:com.example.Csv_extractor.AppTest@3527942a]
+2024-10-14 11:34:18,469 [main] TRACE  org.testng.internal.Graph - [Graph]               AppTest.testReadUser()[pri:0, instance:com.example.Csv_extractor.AppTest@3527942a]
+2024-10-14 11:34:18,469 [main] TRACE  org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+2024-10-14 11:34:18,469 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 8 ms.
+2024-10-14 11:34:18,470 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-14 11:34:18,470 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-14 11:34:18,470 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-14 11:34:18,470 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-14 11:34:18,481 [main] INFO   org.testng.internal.Utils - [TestNG] Running:
+  /private/var/folders/5j/rkgngvws1fbgj1s187y4gt6h0000gn/T/testng-eclipse--329061790/testng-customsuite.xml
+
+2024-10-14 11:34:18,509 [main] INFO   org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 5 ms.
+2024-10-14 11:34:18,756 [main] INFO   com.example.Csv_extractor.App -  {},{},{},{}account  created successfully
+2024-10-14 11:34:18,791 [main] INFO   com.example.Csv_extractor.App -  {},{},{},{}account  created successfully
+2024-10-14 11:34:18,792 [main] DEBUG  com.example.Csv_extractor.App - executing query SELECT * FROM demo_acc
+2024-10-14 11:34:18,796 [main] INFO   com.example.Csv_extractor.App - reading user
+2024-10-14 11:34:18,797 [main] INFO   com.example.Csv_extractor.App - Account ID: TIM1, Account Login: TIM}
+2024-10-14 11:34:18,797 [main] INFO   com.example.Csv_extractor.App - Account ID: tim2, Account Login: timmy}
+2024-10-14 11:34:18,797 [main] INFO   com.example.Csv_extractor.App - Account ID: stark 1, Account Login: stark}
+2024-10-14 11:34:18,798 [main] INFO   com.example.Csv_extractor.App - Account ID: stark 2, Account Login: stark henrry}
+2024-10-14 11:34:18,798 [main] INFO   com.example.Csv_extractor.App - Account ID: user_1, Account Login: Alice Johnson}
+2024-10-14 11:34:18,798 [main] INFO   com.example.Csv_extractor.App - Account ID: user_2, Account Login: Bob Smith}
+2024-10-14 11:34:18,799 [main] INFO   com.example.Csv_extractor.App - Account ID: user_3, Account Login: Charlie Brown}
+2024-10-14 11:34:18,799 [main] INFO   com.example.Csv_extractor.App - Account ID: user_4, Account Login: Diana Prince}
+2024-10-14 11:34:18,799 [main] INFO   com.example.Csv_extractor.App - Account ID: user_5, Account Login: Ethan Hunt}
+2024-10-14 11:34:18,799 [main] INFO   com.example.Csv_extractor.App - Account ID: user_6, Account Login: Fiona Green}
+2024-10-14 11:34:18,800 [main] INFO   com.example.Csv_extractor.App - Account ID: user_7, Account Login: George Miller}
+2024-10-14 11:34:18,800 [main] INFO   com.example.Csv_extractor.App - Account ID: user_8, Account Login: Hannah White}
+2024-10-14 11:34:18,800 [main] INFO   com.example.Csv_extractor.App - Account ID: user_9, Account Login: Ian Wright}
+2024-10-14 11:34:18,801 [main] INFO   com.example.Csv_extractor.App - Account ID: user_10, Account Login: Jessica Parker}
+2024-10-14 11:34:18,801 [main] INFO   com.example.Csv_extractor.App - Account ID: user_11, Account Login: Kevin Brown}
+2024-10-14 11:34:18,801 [main] INFO   com.example.Csv_extractor.App - Account ID: user_12, Account Login: Laura Lee}
+2024-10-14 11:34:18,802 [main] INFO   com.example.Csv_extractor.App - Account ID: user_13, Account Login: Michael Johnson}
+2024-10-14 11:34:18,802 [main] INFO   com.example.Csv_extractor.App - Account ID: user_14, Account Login: Nina Patel}
+2024-10-14 11:34:18,802 [main] INFO   com.example.Csv_extractor.App - Account ID: user_15, Account Login: Oscar Martinez}
+2024-10-14 11:34:18,803 [main] INFO   com.example.Csv_extractor.App - Account ID: user_16, Account Login: Paula Davis}
+2024-10-14 11:34:18,803 [main] INFO   com.example.Csv_extractor.App - Account ID: user_17, Account Login: Quincy Adams}
+2024-10-14 11:34:18,803 [main] INFO   com.example.Csv_extractor.App - Account ID: user_18, Account Login: Rachel Green}
+2024-10-14 11:34:18,804 [main] INFO   com.example.Csv_extractor.App - Account ID: user_19, Account Login: Sam Wilson}
+2024-10-14 11:34:18,804 [main] INFO   com.example.Csv_extractor.App - Account ID: user_20, Account Login: Tina Turner}
+2024-10-14 11:34:18,804 [main] INFO   com.example.Csv_extractor.App - Account ID: stark 57, Account Login: john doe}
+2024-10-14 11:34:18,805 [main] INFO   com.example.Csv_extractor.App - Account ID: stark 34, Account Login: jane smith}
+2024-10-14 11:34:18,805 [main] INFO   com.example.Csv_extractor.App - Account ID: stark 88, Account Login: lisa ray}
+2024-10-14 11:34:18,805 [main] INFO   com.example.Csv_extractor.App - Account ID: stark 42, Account Login: max payne}
+2024-10-14 11:34:18,806 [main] INFO   com.example.Csv_extractor.App - Account ID: stark 15, Account Login: clara oswald}
+2024-10-14 11:34:18,806 [main] INFO   com.example.Csv_extractor.App - Account ID: stark 73, Account Login: tony stark}
+2024-10-14 11:34:18,806 [main] INFO   com.example.Csv_extractor.App - Account ID: stark 29, Account Login: peter parker}
+2024-10-14 11:34:18,806 [main] INFO   com.example.Csv_extractor.App - Account ID: stark 61, Account Login: bruce wayne}
+2024-10-14 11:34:18,807 [main] INFO   com.example.Csv_extractor.App - Account ID: stark 76, Account Login: harry potter}
+2024-10-14 11:34:18,807 [main] INFO   com.example.Csv_extractor.App - Account ID: stark 44, Account Login: luke skywalker}
+2024-10-14 11:34:18,807 [main] INFO   com.example.Csv_extractor.App - Account ID: stark 83, Account Login: susan storm}
+2024-10-14 11:34:18,807 [main] INFO   com.example.Csv_extractor.App - Account ID: stark 51, Account Login: tony montana}
+2024-10-14 11:34:18,808 [main] INFO   com.example.Csv_extractor.App - Account ID: stark 23, Account Login: sara connor}
+2024-10-14 11:34:18,808 [main] INFO   com.example.Csv_extractor.App - Account ID: stark 39, Account Login: wade wilson}
+2024-10-14 11:34:18,808 [main] INFO   com.example.Csv_extractor.App - Account ID: stark 11, Account Login: diana prince}
+2024-10-14 11:34:18,809 [main] INFO   com.example.Csv_extractor.App - Account ID: stark 67, Account Login: steve rogers}
+2024-10-14 11:34:18,813 [main] INFO   com.example.Csv_extractor.App - Account ID: stark 94, Account Login: jessica jones}
+2024-10-14 11:34:18,814 [main] INFO   com.example.Csv_extractor.App - Account ID: stark 32, Account Login: natasha romanoff}
+2024-10-14 11:34:18,814 [main] INFO   com.example.Csv_extractor.App - Account ID: stark 78, Account Login: clark kent}
+2024-10-14 11:34:18,814 [main] INFO   com.example.Csv_extractor.App - Account ID: mark 21, Account Login: mark paul}
+2024-10-14 11:34:18,815 [main] INFO   com.example.Csv_extractor.App - Account ID: test123, Account Login: testLogin}
+2024-10-14 11:34:18,815 [main] INFO   com.example.Csv_extractor.App - Account ID: testReadUser, Account Login: testLoginRead}
+2024-10-14 11:34:18,823 [main] INFO   com.example.Csv_extractor.App - account ID testReadUser deleted.
+2024-10-14 11:34:18,869 [main] INFO   com.example.Csv_extractor.App - account ID test123 deleted.
+2024-10-14 11:34:18,943 [main] INFO   org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@74bf1791: 0 ms
+2024-10-14 11:34:18,973 [main] INFO   org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@68702e03: 29 ms
+2024-10-14 11:34:19,083 [main] INFO   org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@64bce832: 110 ms
+2024-10-14 11:34:19,084 [main] INFO   org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@764faa6: 0 ms
+2024-10-14 11:34:19,094 [main] INFO   org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@76f4b65: 10 ms
+2024-10-14 11:34:19,101 [main] INFO   org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@3f9342d4: 6 ms
+2024-10-14 11:34:19,107 [main] INFO   org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@4b40f651: 6 ms
+2024-10-17 11:13:54,049 [main] DEBUG  org.testng.TestNG - suiteXmlPath: "/var/folders/5j/rkgngvws1fbgj1s187y4gt6h0000gn/T/testng-eclipse--1136260834/testng-customsuite.xml"
+2024-10-17 11:13:54,535 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+2024-10-17 11:13:54,545 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 5 ms.
+2024-10-17 11:13:54,549 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-17 11:13:54,549 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-17 11:13:54,550 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-17 11:13:54,551 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-17 11:13:54,552 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-17 11:13:54,552 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-17 11:13:54,574 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 18 ms.
+2024-10-17 11:13:54,590 [main] TRACE  org.testng.internal.Graph - [Graph] ADDING NODE AppTest.setup()[pri:0, instance:null] -1664640127
+2024-10-17 11:13:54,591 [main] TRACE  org.testng.internal.Graph - [Graph] ================ SORTING
+2024-10-17 11:13:54,596 [main] TRACE  org.testng.internal.Graph - [Graph] =============== DONE SORTING
+2024-10-17 11:13:54,597 [main] TRACE  org.testng.internal.Graph - [Graph] ====== SORTED NODES
+2024-10-17 11:13:54,597 [main] TRACE  org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+2024-10-17 11:13:54,597 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 22 ms.
+2024-10-17 11:13:54,599 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-17 11:13:54,600 [main] TRACE  org.testng.internal.Graph - [Graph] ADDING NODE AppTest.exit()[pri:0, instance:null] -1704191968
+2024-10-17 11:13:54,600 [main] TRACE  org.testng.internal.Graph - [Graph] ================ SORTING
+2024-10-17 11:13:54,600 [main] TRACE  org.testng.internal.Graph - [Graph] =============== DONE SORTING
+2024-10-17 11:13:54,600 [main] TRACE  org.testng.internal.Graph - [Graph] ====== SORTED NODES
+2024-10-17 11:13:54,601 [main] TRACE  org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+2024-10-17 11:13:54,601 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2024-10-17 11:13:54,602 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-17 11:13:54,603 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-17 11:13:54,604 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-17 11:13:54,605 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-17 11:13:54,609 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-17 11:13:54,609 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-17 11:13:54,610 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-17 11:13:54,610 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-17 11:13:54,614 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-17 11:13:54,615 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-17 11:13:54,615 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-17 11:13:54,615 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-17 11:13:54,617 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+2024-10-17 11:13:54,619 [main] TRACE  org.testng.internal.Graph - [Graph] ADDING NODE AppTest.testQueryExecutionAndCsvWriting()[pri:0, instance:com.example.Csv_extractor.AppTest@942a29c] 68588009
+2024-10-17 11:13:54,619 [main] TRACE  org.testng.internal.Graph - [Graph] ADDING NODE AppTest.testDeleteUser()[pri:0, instance:com.example.Csv_extractor.AppTest@942a29c] -555546
+2024-10-17 11:13:54,625 [main] TRACE  org.testng.internal.Graph - [Graph]   ADDING PREDECESSOR FOR AppTest.testDeleteUser()[pri:0, instance:com.example.Csv_extractor.AppTest@942a29c] ==> AppTest.testCreateUser()[pri:0, instance:com.example.Csv_extractor.AppTest@942a29c]
+2024-10-17 11:13:54,627 [main] TRACE  org.testng.internal.Graph - [Graph]   REMOVED AppTest.testCreateUser()[pri:0, instance:com.example.Csv_extractor.AppTest@942a29c] FROM INDEPENDENT OBJECTS
+2024-10-17 11:13:54,627 [main] TRACE  org.testng.internal.Graph - [Graph] ADDING NODE AppTest.testCreateUser()[pri:0, instance:com.example.Csv_extractor.AppTest@942a29c] -173567209
+2024-10-17 11:13:54,627 [main] TRACE  org.testng.internal.Graph - [Graph] ADDING NODE AppTest.testReadUser()[pri:0, instance:com.example.Csv_extractor.AppTest@942a29c] 810538929
+2024-10-17 11:13:54,627 [main] TRACE  org.testng.internal.Graph - [Graph] ================ SORTING
+2024-10-17 11:13:54,628 [ForkJoinPool.commonPool-worker-2] TRACE  org.testng.internal.Graph - [Graph]   ADDING PREDECESSOR FOR AppTest.testDeleteUser()[pri:0, instance:com.example.Csv_extractor.AppTest@942a29c] ==> AppTest.testCreateUser()[pri:0, instance:com.example.Csv_extractor.AppTest@942a29c]
+2024-10-17 11:13:54,630 [main] TRACE  org.testng.internal.Graph - [Graph]   REMOVED PRED AppTest.testCreateUser()[pri:0, instance:com.example.Csv_extractor.AppTest@942a29c] FROM NODE AppTest.testDeleteUser()[pri:0, instance:com.example.Csv_extractor.AppTest@942a29c]
+2024-10-17 11:13:54,631 [main] TRACE  org.testng.internal.Graph - [Graph] =============== DONE SORTING
+2024-10-17 11:13:54,631 [main] TRACE  org.testng.internal.Graph - [Graph] ====== SORTED NODES
+2024-10-17 11:13:54,631 [main] TRACE  org.testng.internal.Graph - [Graph]               AppTest.testCreateUser()[pri:0, instance:com.example.Csv_extractor.AppTest@942a29c]
+2024-10-17 11:13:54,631 [main] TRACE  org.testng.internal.Graph - [Graph]               AppTest.testDeleteUser()[pri:0, instance:com.example.Csv_extractor.AppTest@942a29c]
+2024-10-17 11:13:54,631 [main] TRACE  org.testng.internal.Graph - [Graph]               AppTest.testReadUser()[pri:0, instance:com.example.Csv_extractor.AppTest@942a29c]
+2024-10-17 11:13:54,631 [main] TRACE  org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+2024-10-17 11:13:54,632 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 13 ms.
+2024-10-17 11:13:54,634 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-17 11:13:54,634 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-17 11:13:54,634 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-17 11:13:54,634 [main] INFO   org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-17 11:13:54,651 [main] INFO   org.testng.internal.Utils - [TestNG] Running:
+  /private/var/folders/5j/rkgngvws1fbgj1s187y4gt6h0000gn/T/testng-eclipse--1136260834/testng-customsuite.xml
+
+2024-10-17 11:13:54,703 [main] INFO   org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 14 ms.
+2024-10-17 11:13:55,144 [main] INFO   com.example.Csv_extractor.App -  {},{},{},{}account  created successfully
+2024-10-17 11:13:55,219 [main] INFO   com.example.Csv_extractor.App -  {},{},{},{}account  created successfully
+2024-10-17 11:13:55,219 [main] DEBUG  com.example.Csv_extractor.App - executing query SELECT * FROM demo_acc
+2024-10-17 11:13:55,223 [main] INFO   com.example.Csv_extractor.App - reading user
+2024-10-17 11:13:55,224 [main] INFO   com.example.Csv_extractor.App - Account ID: TIM1, Account Login: TIM}
+2024-10-17 11:13:55,224 [main] INFO   com.example.Csv_extractor.App - Account ID: tim2, Account Login: timmy}
+2024-10-17 11:13:55,225 [main] INFO   com.example.Csv_extractor.App - Account ID: stark 1, Account Login: stark}
+2024-10-17 11:13:55,225 [main] INFO   com.example.Csv_extractor.App - Account ID: stark 2, Account Login: stark henrry}
+2024-10-17 11:13:55,226 [main] INFO   com.example.Csv_extractor.App - Account ID: user_1, Account Login: Alice Johnson}
+2024-10-17 11:13:55,226 [main] INFO   com.example.Csv_extractor.App - Account ID: user_2, Account Login: Bob Smith}
+2024-10-17 11:13:55,227 [main] INFO   com.example.Csv_extractor.App - Account ID: user_3, Account Login: Charlie Brown}
+2024-10-17 11:13:55,227 [main] INFO   com.example.Csv_extractor.App - Account ID: user_4, Account Login: Diana Prince}
+2024-10-17 11:13:55,227 [main] INFO   com.example.Csv_extractor.App - Account ID: user_5, Account Login: Ethan Hunt}
+2024-10-17 11:13:55,228 [main] INFO   com.example.Csv_extractor.App - Account ID: user_6, Account Login: Fiona Green}
+2024-10-17 11:13:55,228 [main] INFO   com.example.Csv_extractor.App - Account ID: user_7, Account Login: George Miller}
+2024-10-17 11:13:55,229 [main] INFO   com.example.Csv_extractor.App - Account ID: user_8, Account Login: Hannah White}
+2024-10-17 11:13:55,229 [main] INFO   com.example.Csv_extractor.App - Account ID: user_9, Account Login: Ian Wright}
+2024-10-17 11:13:55,229 [main] INFO   com.example.Csv_extractor.App - Account ID: user_10, Account Login: Jessica Parker}
+2024-10-17 11:13:55,230 [main] INFO   com.example.Csv_extractor.App - Account ID: user_11, Account Login: Kevin Brown}
+2024-10-17 11:13:55,232 [main] INFO   com.example.Csv_extractor.App - Account ID: user_12, Account Login: Laura Lee}
+2024-10-17 11:13:55,234 [main] INFO   com.example.Csv_extractor.App - Account ID: user_13, Account Login: Michael Johnson}
+2024-10-17 11:13:55,234 [main] INFO   com.example.Csv_extractor.App - Account ID: user_14, Account Login: Nina Patel}
+2024-10-17 11:13:55,235 [main] INFO   com.example.Csv_extractor.App - Account ID: user_15, Account Login: Oscar Martinez}
+2024-10-17 11:13:55,235 [main] INFO   com.example.Csv_extractor.App - Account ID: user_16, Account Login: Paula Davis}
+2024-10-17 11:13:55,236 [main] INFO   com.example.Csv_extractor.App - Account ID: user_17, Account Login: Quincy Adams}
+2024-10-17 11:13:55,237 [main] INFO   com.example.Csv_extractor.App - Account ID: user_18, Account Login: Rachel Green}
+2024-10-17 11:13:55,239 [main] INFO   com.example.Csv_extractor.App - Account ID: user_19, Account Login: Sam Wilson}
+2024-10-17 11:13:55,239 [main] INFO   com.example.Csv_extractor.App - Account ID: user_20, Account Login: Tina Turner}
+2024-10-17 11:13:55,240 [main] INFO   com.example.Csv_extractor.App - Account ID: stark 57, Account Login: john doe}
+2024-10-17 11:13:55,240 [main] INFO   com.example.Csv_extractor.App - Account ID: stark 34, Account Login: jane smith}
+2024-10-17 11:13:55,241 [main] INFO   com.example.Csv_extractor.App - Account ID: stark 88, Account Login: lisa ray}
+2024-10-17 11:13:55,241 [main] INFO   com.example.Csv_extractor.App - Account ID: stark 42, Account Login: max payne}
+2024-10-17 11:13:55,242 [main] INFO   com.example.Csv_extractor.App - Account ID: stark 15, Account Login: clara oswald}
+2024-10-17 11:13:55,242 [main] INFO   com.example.Csv_extractor.App - Account ID: stark 73, Account Login: tony stark}
+2024-10-17 11:13:55,242 [main] INFO   com.example.Csv_extractor.App - Account ID: stark 29, Account Login: peter parker}
+2024-10-17 11:13:55,243 [main] INFO   com.example.Csv_extractor.App - Account ID: stark 61, Account Login: bruce wayne}
+2024-10-17 11:13:55,243 [main] INFO   com.example.Csv_extractor.App - Account ID: stark 76, Account Login: harry potter}
+2024-10-17 11:13:55,243 [main] INFO   com.example.Csv_extractor.App - Account ID: stark 44, Account Login: luke skywalker}
+2024-10-17 11:13:55,244 [main] INFO   com.example.Csv_extractor.App - Account ID: stark 83, Account Login: susan storm}
+2024-10-17 11:13:55,244 [main] INFO   com.example.Csv_extractor.App - Account ID: stark 51, Account Login: tony montana}
+2024-10-17 11:13:55,245 [main] INFO   com.example.Csv_extractor.App - Account ID: stark 23, Account Login: sara connor}
+2024-10-17 11:13:55,246 [main] INFO   com.example.Csv_extractor.App - Account ID: stark 39, Account Login: wade wilson}
+2024-10-17 11:13:55,247 [main] INFO   com.example.Csv_extractor.App - Account ID: stark 11, Account Login: diana prince}
+2024-10-17 11:13:55,248 [main] INFO   com.example.Csv_extractor.App - Account ID: stark 67, Account Login: steve rogers}
+2024-10-17 11:13:55,249 [main] INFO   com.example.Csv_extractor.App - Account ID: stark 94, Account Login: jessica jones}
+2024-10-17 11:13:55,252 [main] INFO   com.example.Csv_extractor.App - Account ID: stark 32, Account Login: natasha romanoff}
+2024-10-17 11:13:55,253 [main] INFO   com.example.Csv_extractor.App - Account ID: stark 78, Account Login: clark kent}
+2024-10-17 11:13:55,254 [main] INFO   com.example.Csv_extractor.App - Account ID: mark 21, Account Login: mark paul}
+2024-10-17 11:13:55,256 [main] INFO   com.example.Csv_extractor.App - Account ID: test123, Account Login: testLogin}
+2024-10-17 11:13:55,257 [main] INFO   com.example.Csv_extractor.App - Account ID: testReadUser, Account Login: testLoginRead}
+2024-10-17 11:13:55,264 [main] INFO   com.example.Csv_extractor.App - account ID testReadUser deleted.
+2024-10-17 11:13:55,311 [main] INFO   com.example.Csv_extractor.App - account ID test123 deleted.
+2024-10-17 11:13:55,399 [main] INFO   org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@54504ecd: 0 ms
+2024-10-17 11:13:55,431 [main] INFO   org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@7a220c9a: 32 ms
+2024-10-17 11:13:55,511 [main] INFO   org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@764faa6: 79 ms
+2024-10-17 11:13:55,513 [main] INFO   org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@4c1f22f3: 1 ms
+2024-10-17 11:13:55,532 [main] INFO   org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@c94fd30: 19 ms
+2024-10-17 11:13:55,542 [main] INFO   org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@ab7395e: 10 ms
+2024-10-17 11:13:55,548 [main] INFO   org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@42b02722: 6 ms

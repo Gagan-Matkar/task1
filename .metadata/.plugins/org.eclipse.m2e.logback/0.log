@@ -629,3 +629,42 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact org.webjars:j
 2024-10-08 12:36:42,470 [Worker-114: Launching AppTest.testQueryExecutionAndCsvWriting] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/confluxsys/Desktop/task1/Csv-extractor/src/test/resources
 2024-10-08 14:58:21,751 [Worker-133: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
 2024-10-08 14:58:21,758 [Worker-133: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/confluxsys/Desktop/task1/Csv-extractor/src/test/resources
+2024-10-08 17:03:49,509 [Worker-145: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-10-08 17:03:49,525 [Worker-145: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/confluxsys/Desktop/task1/Csv-extractor/src/test/resources
+2024-10-08 17:03:52,507 [Stop Help Server] INFO  org.eclipse.jetty.server.Server - Stopped oejs.Server@654dc9cb{STOPPING}[12.0.12,sto=0]
+2024-10-08 17:03:52,518 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@7f3f1ca{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
+2024-10-14 10:09:51,510 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-10-14 10:13:53,276 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-10-14 10:13:53,288 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/confluxsys/Desktop/task1/Csv-extractor/src/test/resources
+2024-10-14 10:27:19,940 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-12.0.12; built: 2024-07-25T21:58:37.668Z; git: cc6f1b74db755fed228b50701ad967aeaa68e83f; jvm 22.0.2+9-70
+2024-10-14 10:27:20,047 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started oeje8n.ContextHandler$CoreContextHandler@179851ad{/help,/help,b=null,a=AVAILABLE,h=oeje8n.ContextHandler$CoreContextHandler$CoreToNestedHandler@6e61c99c{STARTED}}
+2024-10-14 10:27:20,049 [Start Help Server] INFO  o.e.j.s.DefaultSessionIdManager - Session workerName=node0
+2024-10-14 10:27:20,067 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@791de489{HTTP/1.1, (http/1.1)}{127.0.0.1:50279}
+2024-10-14 10:27:20,173 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started oejs.Server@7c0b1fb{STARTING}[12.0.12,sto=0] @1074568ms
+2024-10-14 10:33:15,226 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-10-14 10:33:15,232 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/confluxsys/Desktop/task1/Csv-extractor/src/test/resources
+2024-10-14 10:37:21,863 [main] INFO  o.e.m.jdt.internal.UnitTestSupport - Updating AppTest.testCreateUser from maven configuration
+2024-10-14 10:37:27,825 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-10-14 10:37:27,831 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/confluxsys/Desktop/task1/Csv-extractor/src/test/resources
+2024-10-14 10:43:13,042 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-10-14 10:43:13,047 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/confluxsys/Desktop/task1/Csv-extractor/src/test/resources
+2024-10-14 10:43:49,584 [Worker-23: Launching AppTest.testCreateUser] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-10-14 10:43:49,590 [Worker-23: Launching AppTest.testCreateUser] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/confluxsys/Desktop/task1/Csv-extractor/src/test/resources
+2024-10-14 10:49:10,338 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-10-14 10:49:10,352 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/confluxsys/Desktop/task1/Csv-extractor/src/test/resources
+2024-10-14 10:49:15,757 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-10-14 10:49:15,761 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/confluxsys/Desktop/task1/Csv-extractor/src/test/resources
+2024-10-14 10:52:39,923 [Worker-23: Launching AppTest.testCreateUser] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-10-14 10:52:39,933 [Worker-23: Launching AppTest.testCreateUser] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/confluxsys/Desktop/task1/Csv-extractor/src/test/resources
+2024-10-14 10:53:45,225 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-10-14 10:53:45,230 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/confluxsys/Desktop/task1/Csv-extractor/src/test/resources
+2024-10-14 11:05:43,549 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-10-14 11:05:43,552 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/confluxsys/Desktop/task1/Csv-extractor/src/test/resources
+2024-10-14 11:33:57,173 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-10-14 11:33:57,177 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/confluxsys/Desktop/task1/Csv-extractor/src/test/resources
+2024-10-14 11:34:40,799 [Stop Help Server] INFO  org.eclipse.jetty.server.Server - Stopped oejs.Server@7c0b1fb{STOPPING}[12.0.12,sto=0]
+2024-10-14 11:34:40,806 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@791de489{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
+2024-10-17 09:20:04,004 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-10-17 09:20:37,690 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-10-17 09:20:37,703 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/confluxsys/Desktop/task1/Csv-extractor/src/test/resources
+2024-10-17 11:13:32,347 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.

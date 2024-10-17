@@ -23,11 +23,11 @@ import org.apache.commons.csv.CSVPrinter;
  *
  */
 public class App {
-	private static final Logger logger = LoggerFactory.getLogger(App.class);
-	private static final String url = "jdbc:postgresql://10.1.27.41:5432/postgres";
-	private static final String user = "dummyuser";
-	private static final String password = "password1";
-	private static Connection connection;
+	public  static final Logger logger = LoggerFactory.getLogger(App.class);
+	public static final String url = "jdbc:postgresql://10.1.27.41:5432/postgres";
+	public static final String user = "dummyuser";
+	public  static final String password = "password1";
+	public  static Connection connection;
 
 	public static void main(String[] args) throws IOException {
 		try {
